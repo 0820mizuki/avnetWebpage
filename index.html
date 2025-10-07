@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社ミソラコネクト - ネットワークソリューション</title>
+    <!-- Tailwind CSS CDNの読み込み -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc; /* ライトグレーの背景 */
+        }
+        .container-content {
+            max-width: 1024px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- ヘッダー (Avnetのロゴは削除し、プレースホルダーとして会社名を表示) -->
+    <header class="bg-white shadow-md">
+        <div class="container-content mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-indigo-600">MISORA CONNECT</h1>
+            <!-- ナビゲーションは省略 -->
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="container-content mx-auto px-4 py-12">
+        
+        <!-- 見出し1: 株式会社ミソラコネクト -->
+        <section class="mb-16">
+            <h2 class="text-4xl font-extrabold text-gray-800 mb-6 border-b-4 border-indigo-500 pb-2 rounded-sm">株式会社ミソラコネクト</h2>
+            <p class="text-lg text-gray-600 leading-relaxed bg-white p-6 rounded-xl shadow-lg">
+                IoTのプロであるソラコムと豊富な提供実績を持つ丸紅グループの合弁会社です。
+                双方が培ってきた自社通信インフラを活用した高品質通信サービスの提供実績と、高いネットワーク構築能力を組み合わせることで、お客様が簡単に、そして安心してご利用いただけるネットワーク基盤をワンストップで提供いたします。
+            </p>
+        </section>
+
+        <!-- 見出し2: MVNOサービス -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-700 mb-8 border-l-4 border-indigo-500 pl-4">MVNOサービス</h2>
+            <p class="text-lg text-gray-600 leading-relaxed mb-10">
+                お客様のご要望に沿った最適なプランを提案可能です。お客様のセキュリティ要件に応じたソリューションも提供可能。
+                またフルMVNO機能を活用した柔軟な課金体系のご提案、e-SIMなどの提供、コスト競争力に優れた提案が可能となります。
+            </p>
+
+            <!-- 特徴・優位性 (表) -->
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">特徴・優位性</h3>
+            <div class="overflow-x-auto bg-white rounded-xl shadow-lg p-1">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-indigo-50">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tl-xl">項目</th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tr-xl">株式会社ミソラコネクトの優位性</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50 transition duration-150">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">料金体系</td>
+                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">フルMVNO機能を活用した柔軟な課金体系、e-SIMの提供、及びコスト競争力に優れた提案</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition duration-150">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">ネットワーク</td>
+                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">丸紅グループとソラコムが培ったインフラを組み合わせた高品質で安定した通信サービス</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition duration-150">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">セキュリティ</td>
+                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-500">閉域網接続、IPアクセス制限など、お客様の要件に応じた多様なセキュリティソリューションを提供</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 見出し3: セキュリティオプションサービス -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-700 mb-8 border-l-4 border-indigo-500 pl-4">セキュリティオプションサービス</h2>
+            <p class="text-lg text-gray-600 leading-relaxed mb-12">
+                閉域網、IPアクセス/ポート制限等セキュリティソリューション提供が可能です。
+            </p>
+
+            <!-- 閉域接続サービス -->
+            <div class="bg-white p-8 rounded-xl shadow-lg mb-10 border-t-4 border-blue-600">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-4">・閉域接続サービスとは</h3>
+                <p class="text-base text-gray-700 leading-relaxed mb-6">
+                    ミソラコネクトのコアネットワーク（閉域網）とお客様拠点を閉域接続用ネットワークで接続することで、端末（SIM）とお客様拠点のセキュアな通信を実現するサービスです。
+                </p>
+                <!-- イメージ画像（閉域接続サービス） -->
+                <div class="flex justify-center mt-6">
+                    <img src="https://placehold.co/800x400/2563EB/ffffff?text=閉域接続サービス+ネットワーク図" 
+                         alt="閉域接続サービスのネットワークイメージ図" 
+                         class="rounded-lg shadow-xl w-full max-w-2xl h-auto"
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x400/2563EB/ffffff?text=画像ロードエラー';">
+                </div>
+            </div>
+
+            <!-- IPアクセス制限サービス -->
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-green-600">
+                <h3 class="text-2xl font-semibold text-green-600 mb-4">・IPアクセス制限サービスとは</h3>
+                <p class="text-base text-gray-700 leading-relaxed mb-6">
+                    端末（SIM）からアクセスできるIPアドレスを制限することで不要なサイトアクセスを防ぎ、セキュリティリスクの低減とデータ通信量の削減を実現するサービスです。
+                </p>
+                <!-- イメージ画像（IPアクセス制限サービス） -->
+                <div class="flex justify-center mt-6">
+                    <img src="https://placehold.co/800x400/10B981/ffffff?text=IPアクセス制限サービス+フロー図" 
+                         alt="IPアクセス制限サービスのフローイメージ図" 
+                         class="rounded-lg shadow-xl w-full max-w-2xl h-auto"
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x400/10B981/ffffff?text=画像ロードエラー';">
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-white p-6 mt-12">
+        <div class="container-content mx-auto text-center text-sm">
+            &copy; 2024 株式会社ミソラコネクト. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
